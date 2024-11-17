@@ -1,0 +1,180 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Free CRM Login Test Scenario",
+        "description": "",
+        "id": "login;free-crm-login-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8216699700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7588601,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Customer Login",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_customer_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3859354300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"jocktmp+mf8vy@gmail.com\" and \"Welcome123!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jocktmp+mf8vy@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Welcome123!",
+                  "offset": 43
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20847800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on myaccount page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_myaccount_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 748629800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Free CRM Login Test Scenario",
+        "description": "",
+        "id": "login;free-crm-login-test-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7876927600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9452899,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Customer Login",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_customer_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3454922501,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"c.amu.spa.m.m@gmail.com\" and \"Noida@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "c.amu.spa.m.m@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Noida@123",
+                  "offset": 43
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9027000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on myaccount page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_myaccount_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 742009199,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "Z:/Eclipse Workspace/FreeCrmBDDFrameWork/src/main/java/Features/login.feature"
+  }
+]
